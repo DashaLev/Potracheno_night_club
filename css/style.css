@@ -1,0 +1,619 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(180deg, #222220 0%, #222220 11.92%, rgba(34, 34, 32, 0.87) 29.17%, rgba(34, 34, 32, 0.88) 71.8%, #222220 100%);;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.a-items-center {
+    align-items: center
+}
+
+.j-content-s-between {
+    justify-content: space-between;
+}
+
+.j-content-center {
+    justify-content: center;
+}
+
+.header {
+    padding: 35px 0;
+}
+
+.menu {
+    grid-column-gap: 25px;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.menu-item a, .menu-item, .submenu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item > a, .menu-item {
+    font-size: 19px;
+}
+
+.submenu-item a {
+    font-size: 16px;
+}
+
+.menu-item a:hover {
+    color: #CB3B48;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    background-color: #1B1B1B;
+    padding: 12px 9px;
+    width: 172px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.submenu-item:first-child {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #2F2F2F;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+.login-reservation-buttons {
+    grid-column-gap: 16px;
+}
+[class*="-button"] {
+    border: none;
+    border-radius: 6px;
+    transition: 500ms;
+}
+
+.phone-button, .login-button {
+    width: 50px;
+    height: 50px;
+}
+
+.phone-button {
+    background: url("../images/phone_icon.svg") no-repeat center;
+}
+
+.phone-button, .mob-menu {
+    background-color: #1B1B1B;
+    box-shadow: 0 0 12px rgba(189, 45, 67, 0.5);
+}
+
+.phone-button:hover {
+    background-color: #CB3B48;
+}
+
+.login-button, .reserve-button, .first-slide-reserve-button, .look-menu-button:hover,
+.online-reserve-button, .cart-button, .details-button:hover, .one-details-button, .show-more-button {
+    background-color: #CB3B48;
+    color: #fff;
+}
+
+.login-button {
+    background: #CB3B48 url("../images/logo_icon.png") no-repeat center;
+}
+
+.login-button:hover {
+    background: #fff url("../images/logo_icon_hover.png") no-repeat center;
+}
+
+.reserve-button:hover, .first-slide-reserve-button:hover, .look-menu-button,
+.online-reserve-button:hover, .details-button, .cart-button:hover, .one-details-button:hover,
+.show-more-button:hover {
+    background-color: #ffffff;
+    color: #CB3B48;
+}
+.reserve-button:hover, .first-slide-reserve-button:hover, .look-menu-button,
+.online-reserve-button:hover, .club-menu-search-button:hover, .club-menu-filter-button:hover {
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.51);
+}
+.mob-menu {
+    margin-left: 23px;
+}
+
+.mob-menu span {
+    position: relative;
+    width: 14px;
+}
+
+.mob-menu span, .mob-menu span:before, .mob-menu span:after {
+    display: block;
+    height: 2px;
+    background-color: #ffffff;
+    border-radius: 1px;
+}
+
+.mob-menu span:before, .mob-menu span:after {
+    width: 22px;
+    content: "";
+    position: absolute;
+    left: -4px;
+}
+
+.mob-menu span:before {
+    bottom: 10px;
+}
+
+.mob-menu span:after {
+    top: 10px;
+}
+
+.first-section {
+    background: url("../images/night_clubbing.svg");
+}
+
+.first-slide-logo_reserve_look-menu-buttons, .about-us-slider {
+    flex-direction: column;
+}
+
+.about-club {
+    padding: 20px 0 100px 0;
+}
+
+.what-can-eat {
+    padding: 75px 0 35px 0;
+}
+
+.section-title {
+    color: #fff;
+    position: relative;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-title:before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    background: #C93A48;
+    box-shadow: 0 0 30px #BD2D43;
+}
+
+.dark-background {
+    background: #222220;
+}
+
+.about-us-image {
+    position: absolute;
+}
+
+.about-us-description p, .what-can-eat-title_description p {
+    color: #8F8F8F;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.about-us-description a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.about-us-description a:hover, .link-with-arrow:hover {
+    color: #C93A48;
+    text-decoration: underline;
+}
+
+.link-with-arrow {
+    color: #fff;
+    padding-right: 55px;
+    margin-bottom: 32px;
+    background: url("../images/arrow_right.png") no-repeat 100% 70%;
+}
+
+.link-with-arrow:hover {
+    background: url("../images/arrow_sl_right.png") no-repeat 100% 70%;
+}
+
+.about-us-slider {
+    align-items: flex-end;
+}
+
+.about-us-slider .carousel-indicators {
+    width: max-content;
+    bottom: -27px;
+    margin: 0;
+}
+
+.about-us-slider .carousel-indicators .active {
+    background-color: #C93A48;
+}
+
+.about-us-slider .carousel-control-next, .about-us-slider .carousel-control-prev {
+    z-index: 20;
+}
+
+.about-us-slider .carousel-control-next-icon, .about-us-slider .carousel-control-prev-icon {
+    width: 45px;
+}
+
+.about-us-slider .carousel-control-next-icon {
+    background-image: url("../images/arrow_sl_right.png");
+}
+
+.about-us-slider .carousel-control-prev-icon {
+    background-image: url("../images/arrow_sl_left.svg");
+}
+
+.slider-promotions, .club-menu-page-slider-promotions {
+    background: url("../images/slider_promotions_bg.svg");
+}
+
+.slider-promotions-title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.slider-promotions-title h2 {
+    margin-bottom: 16px;
+}
+
+.slider-promotions-carousel {
+    padding: 0 20px;
+}
+
+.what-can-eat-info {
+    margin-bottom: 52px;
+}
+
+.contacts {
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.contacts h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contact-info-list {
+    padding-left: 50px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.phone-number {
+    background: url("../images/phone_number_icon.png") no-repeat 0 50%;
+}
+
+.mail {
+    background: url("../images/mail_icon.png") no-repeat 0 50%;
+}
+
+.address {
+    background: url("../images/addres_icon.png") no-repeat 0 50%;
+}
+
+.contact-info {
+    padding: 26px 70px 26px 0;
+}
+
+.map h4 {
+    text-align: center;
+}
+
+.map h4 span {
+    font-weight: normal;
+}
+
+.networks div {
+    width: 30px;
+    height: 30px;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.instagram, .instagram-footer:hover {
+    background: url("../images/instagram_icon.png") no-repeat center;
+}
+
+.telegram, .telegram-footer:hover {
+    background: url("../images/telegram_icon.png") no-repeat center;
+}
+
+.whatsapp, .whatsapp-footer:hover {
+    background: url("../images/whatsapp_icon.png") no-repeat center;
+}
+
+.instagram-footer, .instagram:hover {
+    background: url("../images/instagram_icon_footer.png") no-repeat center;
+}
+
+.telegram-footer, .telegram:hover {
+    background: url("../images/telegram_icon_footer.png") no-repeat center;
+}
+
+.whatsapp-footer, .whatsapp:hover {
+    background: url("../images/whatsapp_icon_footer.png") no-repeat center;
+}
+
+.footer {
+    padding: 20px 0 15px 0;
+    background: url("../images/footer_bg.png");
+}
+
+.contacts-footer-number {
+    color: #BD2D43;
+    font-weight: 700;
+}
+
+.contacts-footer-number-reserve {
+    color: #5C5C5C;
+}
+
+.menu-footer-item a {
+    color: #DCDCDC;
+}
+
+.contacts-footer-number {
+    text-align: end;
+}
+
+.contacts-footer .networks {
+    justify-content: flex-end;
+}
+
+.info-links a {
+    text-decoration: underline;
+}
+
+.info-links a:last-child {
+    text-decoration: none;
+}
+
+.slider-promotions-carousel .carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+}
+
+.slider-promotions-carousel .carousel-indicators {
+    bottom: -27px;
+    margin: 0 auto;
+    align-items: center;
+    width: max-content;
+    grid-column-gap: 15px;
+}
+
+.slider-promotions-carousel .carousel-indicators li {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.slider-promotions-carousel .carousel-indicators .active {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.slider-promotions-carousel .carousel-control-prev {
+    left: -95px;
+    opacity: 1;
+}
+
+.slider-promotions-carousel .carousel-control-next {
+    right: -95px;
+    opacity: 1;
+}
+
+.slider-promotions-carousel .carousel-control-next-icon, .slider-promotions-carousel .carousel-control-prev-icon {
+    width: 14px;
+    height: 46px;
+}
+
+.slider-promotions-carousel .carousel-control-prev-icon {
+    background-image: url("../images/slider_promotion_arrow_left.png");
+}
+
+.slider-promotions-carousel .carousel-control-next-icon {
+    background-image: url("../images/slider_promotion_arrow_right.png");
+}
+
+.slider-promotions-carousel .carousel-control-next:focus, .slider-promotions-carousel .carousel-control-next:hover, .slider-promotions-carousel .carousel-control-prev:focus, .slider-promotions-carousel .carousel-control-prev:hover {
+    opacity: 0.6;
+}
+
+.bread-crumb, .bread-crumb a {
+    color: #676767;;
+}
+
+.bread-crumb span {
+    color: #fff;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.club-menu {
+    padding: 20px 0 30px 0;
+}
+
+.club-menu-section a {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+}
+
+.club-menu-section a:last-child {
+    color: #505050;
+}
+
+.club-menu-section a:hover, .club-menu-links a:hover {
+    text-decoration: none;
+    color: #BD2D43;
+}
+
+.club-menu-links {
+    margin-top: 30px;
+    margin-bottom: 34px;
+}
+
+.club-menu-links-column a {
+    display: block;
+    font-size: 18px;
+    color: #fff;
+}
+
+.club-menu-search input {
+    background: #222220;
+    border: 1px solid #B7B7B7;
+    border-right: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px 0 0 5px;
+}
+
+.club-menu-filter-tags button {
+    margin-right: 20px;
+}
+
+.club-menu-search-button {
+    box-shadow: 0 0 15px #CB3B48;
+    border-radius: 0 5px 5px 0;
+    padding: 0;
+    background: #BD2D43 url("../images/search_icon.png") no-repeat center;
+}
+
+
+.club-menu-search-button:hover {
+    background: #fff url("../images/search_icon_hover.png") no-repeat center;
+}
+
+.club-menu-tag-button {
+    padding: 10px 39px 10px 15px;
+    text-transform: uppercase;
+    border: 1px solid #CB3B48;
+    border-radius: 23px;
+    color: #fff;
+    background: #222220 url("../images/x_icon.png") no-repeat 92% 50%;
+}
+
+.club-menu-tag-button:active, .club-menu-tag-button.active {
+    border: 1px solid #6DAB58;
+    color: #6DAB58;
+    background: url("../images/x_icon_active.png") no-repeat 92% 50%;
+}
+
+.club-menu-tag-button:hover {
+    color: #CB3B48;
+    background: url("../images/x_icon_hover.png") no-repeat 92% 50%;
+    border: 1px solid #CB3B48;
+}
+
+.club-menu-filter-button {
+    color: #ffffff;
+    background: #CB3B48 url("../images/filter_icon.png") no-repeat 92% 50%;
+}
+
+.club-menu-filter-button:hover {
+    color: #CB3B48;
+    background: #fff url("../images/filter_icon_hover.png")no-repeat 92% 50%;
+}
+.club-menu-links-mob {
+    display: flex;
+    overflow: auto;
+    padding: 5px 0;
+    margin: 19px 0 25px 0;
+}
+.club-menu-links-mob a {
+    display: block;
+    margin-right: 15px;
+    min-width: max-content;
+    color: #fff;
+    padding: 8px 11px;
+    background: #161615;
+    border-radius: 17px;
+    text-decoration: none;
+}
+.club-menu-links-mob a:active, .club-menu-links-mob a:first-child {
+    background: #CB3B48;
+    box-shadow: 0 0 8px #CB3B48;
+}
+.dish-item {
+    background: url("../images/dish_bg_small.png") no-repeat center;
+}
+.dish-item:hover, .show-more-button {
+    box-shadow: 0 0 8px #CB3B48;
+}
+
+.dish-name {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.nutritional-value {
+    color: #CB3B48;
+}
+.cal {
+    margin-right: 22px;
+}
+.price {
+    color: #fff;
+}
+.price span {
+    font-weight: bold;
+}
+.details-button {
+    font-size: 12px;
+    padding: 11px 18px;
+    text-transform: uppercase;
+    margin-right: 5px;
+}
+.cart-button {
+    width: 40px;
+    height: 40px;
+    background-image: url("../images/cart_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.cart-button:hover {
+    background-image: url("../images/cart_icon_hover.png");
+}
+.list-of-all-dishes {
+    padding: 48px 0 59px 0;
+}
+.list-of-dishes {
+    margin-bottom: 30px;
+}
+.one-details-button {
+    display: block;
+    text-transform: uppercase;
+    width: 133px;
+}
+.show-more-button {
+    display: block;
+    margin: 0 auto;
+    text-transform: uppercase;
+    border-radius: 23px;
+    border: none;
+}

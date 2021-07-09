@@ -1,0 +1,606 @@
+@media (min-width: 320px) {
+    .first-slide-reserve-button, .look-menu-button {
+        width: 257px;
+        font-size: 15px;
+        padding: 15px 0;
+        margin-bottom: 20px;
+    }
+
+    .about-us-slider .carousel.slide {
+        width: 266px;
+    }
+
+    .contact-info_map {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .xs-d-none {
+        display: none;
+    }
+
+    .header {
+        padding: 7px 0;
+    }
+
+    .phone-button, .mob-menu {
+        width: 40px;
+        height: 40px;
+    }
+
+    .reserve_look-menu-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us-info {
+        width: 193px;
+        margin-bottom: 73px;
+    }
+
+    .what-can-eat-info {
+        width: 210px;
+        margin-bottom: 36px;
+    }
+
+    .about-us-info h2 {
+        font-size: 26px;
+    }
+
+    .what-can-eat-info h2 {
+        font-size: 22px;
+    }
+
+    .section-title h2 span {
+        font-size: 34px;
+    }
+
+    .about-us-image {
+        top: -25px;
+        left: 74px;
+    }
+
+    .section-title:before {
+        width: 47px;
+        height: 3px;
+    }
+
+    .about-us-slider .carousel-indicators {
+        left: -2px;
+    }
+
+    .about-us-slider .carousel-control-next, .carousel-control-prev {
+        top: 202px;
+    }
+
+    .about-us-slider .carousel-control-prev {
+        left: 175px;
+    }
+
+    .about-us-slider .carousel-indicators li {
+        width: 25px;
+    }
+
+    .contacts h2 {
+        font-size: 30px;
+        line-height: 35px;
+        margin-bottom: 18px;
+    }
+
+    .contact-info_map h4, .contact-info_map div {
+        font-size: 12px;
+    }
+
+    .contact-info-list {
+        background-size: 9%;
+    }
+
+    .address {
+        margin-bottom: 26px;
+    }
+
+    .online-reserve-button {
+        padding: 12px 32px;
+        margin-top: 7px;
+        margin-bottom: 19px;
+    }
+
+    .map img {
+        width: 288px;
+        margin-top: 24px;
+        margin-bottom: 19px;
+    }
+
+    .logo-footer img {
+        width: 145px;
+    }
+
+    .contacts-footer-number {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 16px;
+    }
+
+    .contacts-footer-number-reserve {
+        font-size: 6px;
+    }
+
+    .menu-footer-item a, .info-links a {
+        font-size: 9px;
+    }
+
+    .contacts-footer {
+        margin-left: 25px;
+    }
+
+    .logo-footer_menu-footer_contacts-footer {
+        justify-content: space-between;
+    }
+
+    .contacts-footer .networks {
+        grid-column-gap: 14px;
+    }
+
+    .info-links a {
+        color: #fff;
+        margin-right: 17px;
+    }
+    .slider-promotions-title h2 {
+        font-size: 18px;
+    }
+    .slider-promotions-list-xs {
+        overflow: auto;
+    }
+    .slider-promotions-list-xs img {
+        width: 83px;
+    }
+    .slider-promotions {
+        padding: 15px 0;
+    }
+    .club-menu-page-slider-promotions {
+        padding: 10px 0;
+    }
+    .club-menu-section a {
+        margin-right: 10px;
+    }
+    .club-menu-search input {
+        padding: 5px;
+        height: 29px;
+        width: 165px;
+    }
+    .club-menu-search-button {
+        width: 29px;
+        height: 29px;
+        background-size: 50%;
+    }
+    .club-menu-filter-button {
+        padding: 7px 37px 7px 9px;
+        background-size: 25%;
+        font-size: 10px;
+    }
+    .club-menu-search-button:hover {
+        background-size: 50%;
+    }
+    .club-menu-filter-button:hover {
+        background-size: 26%;
+    }
+    .club-menu-links-mob a {
+        font-size: 12px;
+    }
+    .dish-item, .dish-item img {
+        width: 145px;
+    }
+    .dish-item {
+        height: 295px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        background-size: 119%;
+    }
+    .dish-name {
+        font-size: 11px;
+        height: 32px;
+    }
+    .dish-info {
+        padding: 5px;
+    }
+    .nutritional-value div {
+        font-size: 9px;
+    }
+    .price {
+        line-height: 24px;
+    }
+    .price span {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .list-of-dishes {
+        grid-column-gap: 10px;
+    }
+    .one-details-button {
+        height: 23px;
+        font-size: 10px;
+    }
+    .show-more-button {
+        width: 145px;
+        height: 35px;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .phone-button_mob-menu, .mob-logo, .slider-promotions-list-xs {
+        display: none;
+    }
+
+    .menu {
+        margin-right: 20px;
+    }
+
+    .first-slide-reserve-button {
+        margin-right: 48px;
+    }
+
+    .about-us-info {
+        width: 295px;
+    }
+
+    .what-can-eat-info {
+        width: 330px;
+    }
+
+    .about-us-info h2 {
+        font-size: 40px;
+    }
+
+    .what-can-eat-info h2 {
+        font-size: 34px;
+    }
+
+    .section-title h2 span {
+        font-size: 52px;
+    }
+
+    .about-us-image {
+        top: 0;
+        left: 159px;
+    }
+
+    .section-title:before {
+        width: 73px;
+        height: 5px;
+    }
+
+    .about-us-slider .carousel.slide {
+        width: 536px;
+    }
+
+    .about-us-slider .carousel-indicators {
+        left: 10px;
+    }
+
+    .about-us-slider .carousel-control-next, .about-us-slider .carousel-control-prev {
+        top: 391px;
+    }
+
+    .about-us-slider .carousel-control-prev {
+        left: 390px;
+    }
+
+    .contacts h2 {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 50px;
+    }
+
+    .contact-info-list {
+        margin-top: 25px;
+        font-size: 24px;
+    }
+
+    .address {
+        margin-bottom: 43px;
+    }
+
+    .online-reserve-button {
+        padding: 14px 56px;
+        margin-top: 25px;
+        margin-bottom: 32px;
+    }
+
+    .networks {
+        grid-column-gap: 23px;
+    }
+
+    .logo-footer_menu-footer {
+        display: flex;
+    }
+
+    .logo-footer_menu-footer_contacts-footer {
+        justify-content: space-between;
+    }
+
+    .contacts-footer-number {
+        font-size: 24px;
+        margin-bottom: 21px;
+    }
+
+    .contacts-footer-number-reserve {
+        font-size: 12px;
+    }
+
+    .info-links a {
+        color: #9C9C9C;
+        font-size: 14px;
+    }
+    .slider-promotions {
+        padding: 40px 0;
+    }
+    .club-menu-page-slider-promotions {
+        padding-bottom: 35px;
+    }
+    .club-menu-section a {
+        font-size: 30px;
+        margin-right: 39px;
+    }
+    .club-menu-search input {
+        padding: 15px 23px;
+        height: 50px;
+    }
+    .club-menu-search-button {
+        width: 50px;
+        height: 50px;
+    }
+    .club-menu-filter-button {
+        padding: 14px 63px 16px 19px;
+        font-weight: 600;
+    }
+    .dish-item {
+        margin-bottom: 30px;
+        border-radius: 25px;
+        height: 655px;
+    }
+    .dish-item, .dish-item img {
+        width: 330px;
+    }
+    .dish-name {
+        font-size: 22px;
+        line-height: 25px;
+        height: 50px;
+    }
+    .dish-info {
+        padding: 11px 15px 34px 26px;
+    }
+    .nutritional-value {
+        margin-top: 10px;
+        margin-bottom: 14px;
+    }
+    .price span {
+        font-size: 36px;
+    }
+    .price_details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .list-of-dishes {
+        grid-column-gap: 25px;
+    }
+    .one-details-button {
+        height: 40px;
+        font-size: 14px;
+    }
+    .show-more-button {
+        width: 194px;
+        height: 47px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+    .logo img {
+        width: 174px;
+    }
+
+    .md-logo {
+        width: 100%;
+    }
+
+    .reserve-button {
+        width: 130px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .about-us-description_about-us-slider {
+        justify-content: center;
+    }
+
+    .about-us-description {
+        order: 2;
+        margin-top: 65px;
+    }
+
+    .phone-picture {
+        display: none;
+    }
+
+    .what-can-eat-img_description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .what-can-eat-img_description a {
+        align-self: flex-start;
+    }
+
+    .map img {
+        margin-top: 20px;
+    }
+
+    .contact-info {
+        border-bottom: 1px solid #525252;
+    }
+
+    .menu-footer {
+        grid-column-gap: 21px;
+    }
+
+    .info-links a {
+        margin-right: 20px;
+    }
+
+    .info-links a:last-child {
+        display: block;
+    }
+    .logo-footer img {
+        margin-right: 20px;
+    }
+    .club-menu_links-search_filter-tags {
+        display: none;
+    }
+    .slider-promotions-carousel .carousel-control-next {
+        right: -70px;
+    }
+    .slider-promotions-carousel .carousel-control-prev {
+        left: -70px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .menu {
+        margin-right: 42px;
+    }
+
+    .first-section img {
+        width: 1046px;
+    }
+
+    .first-slide-reserve-button, .look-menu-button {
+        width: 385px;
+        font-size: 23px;
+        padding: 22px 0;
+    }
+
+    .first-slide-reserve-button {
+        margin-right: 48px;
+    }
+
+    .first-section {
+        padding: 90px 0 174px 0;
+    }
+
+    .reserve-button {
+        font-weight: 500;
+        font-size: 16px;
+        width: 179px;
+    }
+
+    .about-us-description_about-us-slider {
+        justify-content: space-between;
+    }
+
+    .about-us-description {
+        align-self: flex-end;
+    }
+
+    .about-us-description, .what-can-eat-title_description {
+        width: 385px;
+    }
+
+    .what_can_eat_phone_mob {
+        display: none;
+    }
+
+    .contact-info {
+        border-right: 1px solid #525252;
+    }
+
+    .contact-info_map {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .map img {
+        margin-right: 10px;
+    }
+
+    .menu-footer {
+        grid-column-gap: 87px;
+    }
+    .logo-footer img {
+        margin-right: 70px;
+    }
+    .club-menu_links-search_filter-tags-mob {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .about-us-info {
+        margin-bottom: 20px;
+    }
+
+    .phone-picture img {
+        width: 535px;
+    }
+
+    .map img {
+        width: 400px;
+    }
+    .info-links a {
+        margin-right: 20px;
+    }
+    .club-menu-links {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+
+    .about-us-info {
+        margin-bottom: -73px;
+    }
+
+    .about-us-description {
+        width: 577px;
+    }
+
+    .what-can-eat-title_description {
+        width: 508px;
+    }
+    .logo-footer img {
+        margin-right:134px;
+        width: 331px;
+    }
+    .info-links a:first-child {
+        margin-right: 21px;
+    }
+    .info-links a:last-child {
+        margin-left: 136px;
+    }
+    .club-menu-links {
+        width: 73%;
+    }
+    .dish-item, .dish-item img {
+        width: 380px;
+    }
+
+}

@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Потрачено night club</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+	      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="wrapper dark-background">
+	<header class="header">
+		<div class="container">
+			<div class="logo_menu_login-reservation-buttons display-flex j-content-s-between a-items-center">
+				<div class="logo">
+					<img src="images/logo.svg" alt="Потрачено night club logo">
+				</div>
+				<div class="menu_login-reservation-buttons display-flex">
+					<nav class="menu display-flex a-items-center xs-d-none">
+						<div class="menu-item"><a href="index.html">Главная</a></div>
+						<div class="menu-item"><a href="#">Меню</a></div>
+						<div class="menu-item">Еще...
+							<div class="submenu">
+								<div class="submenu-item"><a href="#">Фотоотчеты</a></div>
+								<div class="submenu-item"><a href="#">Правила заведения</a></div>
+							</div>
+						</div>
+					</nav>
+					<div class="login-reservation-buttons display-flex xs-d-none">
+						<button class="phone-button"></button>
+						<button class="login-button"></button>
+						<button class="reserve-button">ЗАБРОНИРОВАТЬ</button>
+					</div>
+					<div class="phone-button_mob-menu display-flex">
+						<button class="phone-button"></button>
+						<div class="mob-menu display-flex a-items-center j-content-center">
+							<span></span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="club-menu-page-slider-promotions">
+			<div class="container">
+				<div class="bread-crumb xs-d-none">
+					<a href="index.html" target="_blank">Главная</a> > <span>Меню</span>
+				</div>
+				<div class="slider-promotions-title">
+					<h2>НОВОСТИ И АКЦИИ</h2>
+				</div>
+				<div class="slider-promotions-list-xs display-flex">
+					<img src="images/slider_promotion_1.png" alt="Акция 1">
+					<img src="images/slider_promotion_2.png" alt="Акция 2">
+					<img src="images/slider_promotion_3.png" alt="Акция 3">
+					<img src="images/slider_promotion_4.png" alt="Акция 4">
+					<img src="images/slider_promotion_1.png" alt="Акция 5">
+				</div>
+				<div class="slider-promotions-carousel xs-d-none ">
+					<div id="carousel2" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carousel2" data-slide-to="0" class="active"></li>
+							<li data-target="#carousel2" data-slide-to="1"></li>
+							<li data-target="#carousel2" data-slide-to="2"></li>
+							<li data-target="#carousel2" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_2.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_3.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_4.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+							</div>
+							<div class="carousel-item">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_2.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_3.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_4.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+							</div>
+							<div class="carousel-item">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_2.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_3.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_4.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+							</div>
+							<div class="carousel-item">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_2.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_3.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_4.png" alt="Первый слайд">
+								<img class="w-20" src="images/slider_promotion_1.png" alt="Первый слайд">
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="club-menu">
+			<div class="container">
+				<div class="club-menu_links-search_filter-tags-mob">
+					<div class="search_filter-mob display-flex j-content-s-between">
+						<div class="club-menu-search display-flex a-items-center">
+							<input type="text" placeholder="Поиск...">
+							<button class="club-menu-search-button"></button>
+						</div>
+						<button class="club-menu-filter-button">Фильтр</button>
+					</div>
+					<div class="club-menu-links-mob">
+						<a href="#">Холодные закуски</a>
+						<a href="#">Салаты</a>
+						<a href="#">Горячие закуски</a>
+						<a href="#">Супы</a>
+						<a href="#">Паста</a>
+						<a href="#">Основные блюда</a>
+						<a href="#">Пицца</a>
+						<a href="#">Блюда на гриле</a>
+						<a href="#">Морепродукты</a>
+						<a href="#">Гарниры</a>
+						<a href="#">Соусы</a>
+						<a href="#">Десерты</a>
+					</div>
+				</div>
+				<div class="club-menu_links-search_filter-tags">
+					<div class="club-menu-section">
+						<a href="#">Основное меню</a>
+						<a href="#">Барная карта</a>
+					</div>
+					<div class="club-menu-links_search display-flex j-content-s-between a-items-center">
+						<div class="club-menu-links">
+							<div class="club-menu-links-column display-flex j-content-s-between">
+								<a href="#">Холодные закуски</a>
+								<a href="#">Салаты</a>
+								<a href="#">Горячие закуски</a>
+								<a href="#">Супы</a>
+								<a href="#">Паста</a>
+								<a href="#">Основные блюда</a>
+							</div>
+							<div class="club-menu-links-column display-flex j-content-s-between">
+								<a href="#">Пицца</a>
+								<a href="#">Блюда на гриле</a>
+								<a href="#">Морепродукты</a>
+								<a href="#">Гарниры</a>
+								<a href="#">Соусы</a>
+								<a href="#">Десерты</a>
+							</div>
+						</div>
+						<div class="club-menu-search display-flex a-items-center">
+							<input type="text" placeholder="Поиск...">
+							<button class="club-menu-search-button"></button>
+						</div>
+					</div>
+					<div class="club-menu-filter-tags">
+						<button class="club-menu-filter-button">Фильтры</button>
+						<button class="club-menu-tag-button active">Вегетерианские блюда</button>
+						<button class="club-menu-tag-button">Блюда до 400р</button>
+						<button class="club-menu-tag-button">Выбор шефа</button>
+					</div>
+				</div>
+				<div class="list-of-all-dishes">
+					<div class="list-of-dishes display-flex f-wrap j-content-center">
+						<div class="dish-item">
+							<img src="images/dish_1.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат пармиджано
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details display-flex j-content-s-between">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<div class="details_cart-button display-flex a-items-center xs-d-none">
+										<button class="details-button">подробнее</button>
+										<button class="cart-button"></button>
+									</div>
+								</div>
+								<button class="one-details-button">подробнее</button>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_2.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат с тигровыми креветками
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details display-flex j-content-s-between">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<div class="details_cart-button display-flex a-items-center xs-d-none">
+										<button class="details-button">подробнее</button>
+										<button class="cart-button"></button>
+									</div>
+								</div>
+								<button class="one-details-button">подробнее</button>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_3.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат цезарь
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details display-flex j-content-s-between">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<div class="details_cart-button display-flex a-items-center xs-d-none">
+										<button class="details-button">подробнее</button>
+										<button class="cart-button"></button>
+									</div>
+								</div>
+								<button class="one-details-button">подробнее</button>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_1.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат пармиджано
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_2.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат с тигровыми креветками
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_3.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат цезарь
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_1.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат пармиджано
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_2.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат с тигровыми креветками
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_3.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат цезарь
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_1.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат пармиджано
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_2.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат с тигровыми креветками
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+						<div class="dish-item">
+							<img src="images/dish_3.png" alt="Dish photo">
+							<div class="dish-info">
+								<div class="dish-name display-flex a-items-center">
+									Салат цезарь
+								</div>
+								<div class="nutritional-value display-flex">
+									<div class="cal">Ккал: 245</div>
+									<div class="bzhu">БЖУ: 19,8/12,5/0</div>
+								</div>
+								<div class="price_details">
+									<div class="price"><span>359₽</span>/100г.</div>
+									<button class="one-details-button">подробнее</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="show-more-button">показать еще</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="logo-footer_menu-footer_contacts-footer display-flex">
+				<div class="logo-footer_menu-footer">
+					<div class="logo-footer">
+						<img src="images/logo.svg" alt="Потрачено night club logo">
+					</div>
+					<div class="menu-footer display-flex">
+						<div class="menu-footer-list">
+							<div class="menu-footer-item"><a href="index.html">Главная</a></div>
+							<div class="menu-footer-item"><a href="#">Меню</a></div>
+						</div>
+						<div class="menu-footer-list">
+							<div class="menu-footer-item"><a href="#">Акции</a></div>
+							<div class="menu-footer-item"><a href="#">Команда</a></div>
+						</div>
+						<div class="menu-footer-list">
+							<div class="menu-footer-item"><a href="#">Интерьер</a></div>
+							<div class="menu-footer-item"><a href="#">Контакты</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="contacts-footer">
+					<div class="contacts-footer-number">8(800)999-99-99
+						<div class="contacts-footer-number-reserve">Бронь столов с 09:00 до 19:00</div>
+					</div>
+					<div class="networks display-flex">
+						<div class="instagram-footer"></div>
+						<div class="telegram-footer"></div>
+						<div class="whatsapp-footer"></div>
+					</div>
+				</div>
+			</div>
+			<div class="info-links">
+				<a href="#">Политика конфидециальности</a>
+				<a href="#">Договор оферты</a>
+				<a href="#">Информация на сайте не является публичной офертой</a>
+			</div>
+		</div>
+	</footer>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+</html>
